@@ -9,7 +9,7 @@ env:
   PATCHES_SOURCE: "author/source" # [your_name]/[your_patch] -> gooder123/NonGKI_Patcher
   PATCHES_BRANCH: "branch" # [your_branch] -> main
   HOOK_METHOD: "normal" # manual hook method,can choice syscall and normal.
-  HOOK_NEWER: "true" # syscall can try it.
+  HOOK_NEWER: "false" # syscall can try it.
   PROFILE_NAME: "ruby_alphadroid_a15.env" # your profile name.
   KERNELSU_SUS_PATCH: "false" # if u need manual susfs patch to kernelsu.
   KPM_ENABLE: "true" # Only use it for SukiSU-Ultra.
